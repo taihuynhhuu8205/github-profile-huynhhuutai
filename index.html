@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="./IMAGES/icon.png" type="image/x-icon">
+
+    <title>Profile Website</title>
+</head>
+<body>
+    <div class="container">
+    <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"><a href="#home">Hữu Tài</a></p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Trang Chủ</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Về Tôi</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Dự Án</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#certificates" class="nav-link">Chứng Chỉ & Sở Thích</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Liên Hệ</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button" onclick="window.open('./CV/HTML/index.html', '_blank')">
+                <button class="btn">CV Của Tôi <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Huỳnh Hữu Tài</span>
+                </div>
+                <div class="featured-name">
+                    <p>Tôi là <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                        <p>Tôi là một sinh viên trường Đại học Giao Thông Vận Tải TP.HCM với chuyên ngành Hệ Thống 
+                            Thông Tin Quản Lý (MIS), yêu thích việc biến ý tưởng thành giao diện sống động, 
+                            dễ sử dụng và truyền cảm hứng cho người dùng.
+                        </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn">Liên Hệ</button>
+                    <button class="btn" onclick="window.open('./CV/HTML/index.html', '_blank')">CV Của Tôi <i class="uil uil-file-alt"></i></button>
+                </div>
+                <div class="social_icons">
+                    <a class="icon" href="https://www.instagram.com/tai_huynh_8205/" target="_blank" rel="noopener noreferrer"><i class="uil uil-instagram"></i></a>
+                    <a class="icon" href="https://www.linkedin.com/in/tai-huynh-huu-6bb792319/" target="_blank" rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
+                    <a class="icon" href="https://www.facebook.com/huynh.huu.tai.910815?locale=vi_VN" target="_blank" rel="noopener noreferrer"><i class="uil uil-facebook"></i></a>
+                    <a class="icon" href="https://github.com/taihuynhhuu8205" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="./IMAGES/avata.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Cuộn Xuống</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- -------------- ABOUT ---------------- -->
+         <section class="section" id="about">
+            <div class="top-header">
+                <h1>Về Tôi</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>Mục tiêu nghề nghiệp</h3>
+                        <p>Xin chào, tôi tên là Tài. Tôi là một người đam mê công nghệ, đặc biệt trong lĩnh vực phát triển web.
+                           Tôi mong muốn phát triển sự nghiệp trong một môi trường chuyên nghiệp và năng động, nơi tôi
+                           có thể vận dụng những kiến thức và kỹ năng của bản thân để đóng góp giá trị thực tiễn cho tổ chức.   
+                           Bên cạnh đó, tôi luôn nỗ lực học hỏi và cập nhật những công nghệ mới để hoàn thiện kỹ năng của bản thân.
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn" onclick="window.open('./CV/HTML/index.html', '_blank')" >CV Của Tôi<i class="uil uil-import"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="skills-box">
+                      <div class="skills-header">
+                        <h3>Frontend</h3>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-info">
+                          <span>HTML</span>
+                          <span>80%</span>
+                        </div>
+                        <div class="bar">
+                          <div class="progress" style="width: 80%;"></div>
+                        </div>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-info">
+                          <span>CSS</span>
+                          <span>80%</span>
+                        </div>
+                        <div class="bar">
+                          <div class="progress" style="width: 80%;"></div>
+                        </div>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-info">
+                          <span>JavaScript</span>
+                          <span>60%</span>
+                        </div>
+                        <div class="bar">
+                          <div class="progress" style="width: 60%;"></div>
+                        </div>
+                      </div>
+                      <div class="skill-bar">
+                        <div class="skill-info">
+                          <span>React</span>
+                          <span>50%</span>
+                        </div>
+                        <div class="bar">
+                          <div class="progress" style="width: 50%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- -------------- PROJECT BOX ---------------- -->
+         <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Dự Án</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Hoàn Tất</h3>
+                    <label>2 dự án đã hoàn thành</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-smile"></i>
+                    <h3>Độ Hài Lòng</h3>
+                    <label>Rất vui mừng và hài lòng</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Kinh Ngiệm</h3>
+                    <label>2 năm tại trường</label>
+                </div>
+            </div>
+         </section>
+
+         <!-- -------------- CERTIFICATES & HOBBIES SECTION ---------------- -->
+        <section class="section" id="certificates">
+            <div class="top-header">
+                <h1>Chứng Chỉ & Sở Thích</h1>
+            </div>
+        
+            <div class="row">
+                <!-- CERTIFICATES -->
+                <div class="col">
+                    <div class="certificate-container">
+                        <div class="certificate-box">
+                            <i class="uil uil-clock"></i>
+                            <h3>Chưa có chứng chỉ chính thức</h3>
+                            <label>Tôi đang trong quá trình học tập và sẽ cập nhật trong thời gian tới.</label>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- HOBBIES -->
+                <div class="col">
+                    <div class="hobbies-box">
+                        <h3>Sở Thích</h3>
+                        <ul class="hobbies-list">
+                            <li><i class="uil uil-monitor"></i> Lập trình web</li>
+                            <li><i class="uil uil-book-open"></i> Đọc sách công nghệ</li>
+                            <li><i class="uil uil-headphones-alt"></i> Nghe nhạc & chơi guitar</li>
+                            <li><i class="uil uil-plane"></i> Du lịch & khám phá</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Liên Hệ</h1>
+                <span>Bạn có muốn nói với tôi không? Hãy liên hệ với tôi tại đây</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Tìm Tôi <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: taihunhhuu8205@gmail.com</p>
+                        <p><i class="uil uil-phone"></i> SĐT: 0933903966</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Họ Tên">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Tin Nhắn"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Gửi <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Huỳnh Hữu Tài</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Trang Chủ</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Về Tôi</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Dự Án</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#certificates">Chứng Chỉ & Sở Thích</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a class="icon" href="https://www.instagram.com/tai_huynh_8205/" target="_blank" rel="noopener noreferrer"><i class="uil uil-instagram"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/tai-huynh-huu-6bb792319/" target="_blank" rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
+            <a class="icon" href="https://www.facebook.com/huynh.huu.tai.910815?locale=vi_VN" target="_blank" rel="noopener noreferrer"><i class="uil uil-facebook"></i></a>
+            <a class="icon" href="https://github.com/taihuynhhuu8205" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Bản quyền &copy; <a href="#home" style="text-decoration: none;">Huỳnh Hữu Tài</a> - Giữ toàn vẹn</p>
+        </div>
+    </footer>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+   	<!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- ----- MAIN JS ----- -->
+    <script src="./JS/main.js"></script>
+</body>
+</html>
